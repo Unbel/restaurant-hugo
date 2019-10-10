@@ -1,6 +1,10 @@
 $(document).ready(function () {
 
-
+// easyway fix for autohiding mobile navbar menu
+  $('.navbar-collapse a').click(function(){
+  $(".navbar-collapse").collapse('hide');
+});
+    
     $("#navigation").sticky({
         topSpacing: 75,
     });
