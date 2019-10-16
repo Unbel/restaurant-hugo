@@ -156,17 +156,17 @@ socialTitle = "Follow <span>US</span>"
 [[params.footer.contactItem]]
 title="Telephone"
 icon = "fa fa-phone"
-content = "016742 323313"
+content1 = "016742 323313"
 
 [[params.footer.contactItem]]
 title="Address"
 icon = "fa fa-map-marker"
-content = "2046 Blue Spruce Lane Laurel Canada"
+content2 = "rock communism peak"
 
 [[params.footer.contactItem]]
 title="E mail"
 icon = "fa fa-envelope"
-content = "rest@gmail.com - rest@mail.ru"
+content3 = "rest@gmail.com - rest@mail.ru"
 
 [[params.footer.socialLink]]
 icon = "facebook"
