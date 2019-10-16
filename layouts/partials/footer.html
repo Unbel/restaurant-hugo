@@ -10,7 +10,9 @@
                             {{ range $.Site.Params.footer.contactItem }}
                             <li>
                                 <h4><i class="{{.icon}}"></i>{{ .title }}</h4>
-                                <p>{{ .content }}</p>
+                                <a href="tel:{{ .content1 | safeURL }}">{{ .content1 }}</a>
+                                <a href="geo:0,0?q={{ .content2 | safeURL }}">{{ .content2 }}</a>
+                                <a href="mailto:{{ .content3 | safeURL }}">{{ .content3 }}</a>
 
                             </li>
                             {{end}}
